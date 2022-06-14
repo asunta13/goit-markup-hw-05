@@ -706,7 +706,9 @@ body {
 	background-color: rgba(0, 0, 0, 0.2);
 	position: fixed;
 	top: 0;
-	transition: opaсity 250ms var(--timing-function),
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 250ms var(--timing-function),
 		visibility 250ms var(--timing-function);
 }
 
